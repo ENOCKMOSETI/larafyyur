@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', \App\Http\Livewire\Home\Index::class);
 
 Route::get('/venues', \App\Http\Livewire\Venue\Index::class);
+
+Route::get('/venues/create', \App\Http\Livewire\Venue\Create::class);
+
+Route::get('/artists', \App\Http\Livewire\Artist\Index::class);
+
+Route::get('/artists/create', \App\Http\Livewire\Artist\Create::class);
+
+Route::get('/shows', \App\Http\Livewire\Show\Index::class);
+
+Route::get('/shows/create', \App\Http\Livewire\Show\Create::class);
