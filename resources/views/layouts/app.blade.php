@@ -10,7 +10,22 @@
     </head>
 
     <body>
-
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">🔥</a>
+                </li>
+                <li>
+                    <a href="/venues">Venues</a>
+                </li>
+                <li>
+                    <a href="/artists">Artists</a>
+                </li>
+                <li>
+                    <a href="/shows">Shows</a>
+                </li>
+            </ul>
+        </nav>
         {{ $slot }}
 
         @livewireScripts
